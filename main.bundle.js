@@ -416,9 +416,9 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
 
 var appRoutes = [
-    { path: 'home', component: __WEBPACK_IMPORTED_MODULE_0__app_home_home_component__["a" /* HomeComponent */] },
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_0__app_home_home_component__["a" /* HomeComponent */] },
     // Wildcard route
-    { path: '**', redirectTo: '/home', pathMatch: 'full' }
+    { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 
 
